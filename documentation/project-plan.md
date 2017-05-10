@@ -7,7 +7,7 @@ The Lillebælt Academy University of Applied Science has an IT Library/Inventory
 Having an organized inventory system – have a data base of all items, easily manipulate the data base, regural update to library.
 ## Goals
 ### Version 0.1 
-* set csv to use as initial database
+* set tinyDB
 * cli - update
 * check-out user item quantity return-date
 * check-in/create-item-if-not-in-db item quantity
