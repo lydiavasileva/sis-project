@@ -59,7 +59,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * **Lidia Vasileva** - *Initial work* - [lydiavasileva](https://github.com/lydiavasileva)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/lydiavasileva/sis-project/blob/master/documentation/contributors) who participated in this project.
 
 ## License
 
