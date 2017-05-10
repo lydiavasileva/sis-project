@@ -11,10 +11,10 @@ Having an organized inventory system – have a data base of all items, easily m
 * cli - update
 * check-out user item quantity return-date
 * check-in/create-item-if-not-in-db item quantity
-* weekly e-mail update
 * get list of items, quantity
 
 ### Version 0.2
+* weekly e-mail update
 * set database to keep inventory
 * create gui interface/restAPI? 
 * Version 0.3
@@ -27,8 +27,8 @@ Having an organized inventory system – have a data base of all items, easily m
 Dates for project: 
 * 2017-05-10 – Create Project Plan 0.1
 * 2017-05-10 – Meeting for Project Plan
-* 2017-05-(10-17) – Work on version 0.1
-* 2017-05-17 – Present version 0.1
+* 2017-05-(10-16) – Work on version 0.1
+* 2017-05-16, 10:00 AM – Present version 0.1
 * 2017-06-01 – Update Project Plan 0.2
 * 2017-06-(02-05) – Meeting for Project Plan
 * 2017-06-(6-15) – Send out first list of Inventory to EAL employees and students
