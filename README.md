@@ -8,6 +8,11 @@ This system is being created for Lillebælt Academy, University of Applied Scien
 
 This project was created due to a lack of known software solutions to be used in such a simple inventory.
 Important reason is also the experience which a project like this could provide an IT student, including working with Databases, Coding languages, Security of Data and more. 
+
+
+## Use Cases
+
+
 ## Getting Started
 
 TBA.
