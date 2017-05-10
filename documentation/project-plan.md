@@ -37,12 +37,12 @@ This project at the current time is worked on by the Project Owner and the Libra
 ## Budget and resources
 ## Risk Assessment
 ## Stakeholders
-Librarian
-Teacher 
+* Librarian
+* Teacher 
 	Project Owner
-EAL employees
-EAL students
-Small Inventory Owners 
+* EAL employees
+* EAL students
+* Small Inventory Owners 
 ## Perspective
 ## Evaluation and communication
 * Weekly Meetings
