@@ -15,6 +15,7 @@ Important reason is also the experience which a project like this could provide 
 
 ## Use Cases
 
+![UseCaseDiagram](https://github.com/lydiavasileva/sis-project/blob/master/documentation/images/use-case-sis.png)
 
 ## Getting Started
 
