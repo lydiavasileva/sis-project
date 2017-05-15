@@ -3,8 +3,8 @@
 
 #end result
 
-from inventoryDatabase import invenory_database
-db_filename = "test_database"
+#from inventoryDatabase import invenory_database
+#db_filename = "test_database"
 
 if __name__ == "__main__":
     db = invenory_database(db_filename)

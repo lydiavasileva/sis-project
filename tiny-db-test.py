@@ -1,19 +1,26 @@
-#from tinydb import TinyDB, Query
-#db = TinyDB('//home/lidia/git/sis-project/db.json')
-#db.insert({'int': 1, 'char': 'a'})
-#db.insert({'int': 1, 'char': 'b'})
-
-#THIS WORKS ^
-
-#What do we need in the db
-
-#table 1 - items
-#idItem - nameItem - statusItem - userId
+#table- items
+#idItem - nameItem - statusItem - nameUser
 
 #Example:
-#1 - PC - 10-20-1344(return date) - 2
-#1 - PC - INSTOCK - 0
+#1 - PC - 10-20-1344(return date) - lidi0168
+#1 - PC - INSTOCK - INHOUSE
 
-#table 2 - users
-#Example:
-#idUser - nameUser
+
+from tinydb import TinyDB, Query
+#set the default table name
+TinyDB.DEFAULT_TABLE = 'itemTable'
+
+#NOTE: for future references
+#for a single instance only, passing default_table to the TinyDB constructor
+#TinyDB(storage=SomeStorage, default_table='my-default')
+
+
+#Create the DB as a JSON file
+db = TinyDB('//home/lidia/git/sis-project/db-library.json')
+
+#NOTE: To use the in-memory storage, use:
+#from tinydb.storages import MemoryStorage
+#db = TinyDB(storage=MemoryStorage)
+
+
+db.insert_multiple([{'nameItem': 'PC' , 'statusItem': 2017-10-10, 'nameUser': 'lidi0168'}, {'nameItem': 'PC' , 'statusItem': 'INSTOCK', 'nameUser': 'INHOUSE'}])
