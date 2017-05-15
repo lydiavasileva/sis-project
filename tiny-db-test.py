@@ -16,6 +16,8 @@ TinyDB.DEFAULT_TABLE = 'itemTable'
 
 
 #Create the DB as a JSON file
+
+    #do this only if db does not exist
 db = TinyDB('//home/lidia/git/sis-project/db-library.json')
 
 #NOTE: To use the in-memory storage, use:
@@ -23,4 +25,8 @@ db = TinyDB('//home/lidia/git/sis-project/db-library.json')
 #db = TinyDB(storage=MemoryStorage)
 
 
-db.insert_multiple([{'nameItem': 'PC' , 'statusItem': 2017-10-10, 'nameUser': 'lidi0168'}, {'nameItem': 'PC' , 'statusItem': 'INSTOCK', 'nameUser': 'INHOUSE'}])
+nameItem = input("Insert Name of the Item: ")
+statusItem = input("Insert the Status of the Item: ")
+nameUser = input("Insert the User name: ")
+
+db.insert_multiple([{'nameItem': nameItem , 'statusItem': statusItem, 'nameUser': nameUser}])
