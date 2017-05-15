@@ -17,8 +17,6 @@ Having an organized inventory system – have a data base of all items, easily m
 * weekly e-mail update
 * set database to keep inventory
 * create gui interface/restAPI? 
-* Version 0.3
-* Version 1.0
 * user-friendly webpage
 * use uni login? 
 * e-mail reminder for return-date
