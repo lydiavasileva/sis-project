@@ -1,5 +1,5 @@
 import argparse
-from db import DataBase
+from database import DataBase
 
 def get_cmd_args():
     parser = argparse.ArgumentParser(description = "Get 'itemname', 'status' and 'user' from user input.")
