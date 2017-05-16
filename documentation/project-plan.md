@@ -11,12 +11,6 @@ Having an organized inventory system – have a data base of all items, easily m
 * add_item.py
 * update_status.py
 * readability of code
-### Version 0.1
-* set tinyDB
-* cli - update
-* check-out user item quantity return-date
-* check-in/create-item-if-not-in-db item quantity
-* get list of items, quantity
 ### Version 0.2
 * weekly e-mail update
 * set database to keep inventory
