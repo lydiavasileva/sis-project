@@ -12,6 +12,6 @@ if __name__ == "__main__":
         statusItem = sys.argv[2]
         nameUser = sys.argv[3]
 
-        db.insert_multiple([{'nameItem': nameItem , 'statusItem': statusItem, 'nameUser': nameUser}])
+        db.insert_multiple([{"nameItem": nameItem ,"statusItem": statusItem,"nameUser": nameUser}])
 
     add_item()
