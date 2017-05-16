@@ -2,47 +2,47 @@
 Date of update: 2017-05-10
 
 ## Background
-The Lillebælt Academy University of Applied Science has an IT Library/Inventory. 
+The Lillebælt Academy University of Applied Science has an IT Library/Inventory.
 ## Purpose
 Having an organized inventory system – have a data base of all items, easily manipulate the data base, regural update to library.
 ## Goals
-### Version 0.1 
-* set csv to use as initial database
-* cli - update
-* check-out user item quantity return-date
-* check-in/create-item-if-not-in-db item quantity
-* weekly e-mail update
-* get list of items, quantity
+### Version 0.1
+* set tinyDB
+* search_item.py
+* add_item.py
+* update_status.py
+* readability of code
+* what to do with the JSON file
+
 
 ### Version 0.2
+* weekly e-mail update
 * set database to keep inventory
-* create gui interface/restAPI? 
-* Version 0.3
-* Version 1.0
+* create gui interface/restAPI?
 * user-friendly webpage
-* use uni login? 
+* use uni login?
 * e-mail reminder for return-date
 
 ## Schedule
-Dates for project: 
+Dates for project:
 * 2017-05-10 – Create Project Plan 0.1
 * 2017-05-10 – Meeting for Project Plan
-* 2017-05-(10-17) – Work on version 0.1
-* 2017-05-17 – Present version 0.1
-* 2017-06-01 – Update Project Plan 0.2
-* 2017-06-(02-05) – Meeting for Project Plan
-* 2017-06-(6-15) – Send out first list of Inventory to EAL employees and students
+* 2017-05-(10-16) – Work on version 0.1
+* 2017-05-16, 10:00 AM – Present version 0.1
+* 2017-05-(17-19) – Finish up v0.1
+* 2017-05-20 - Update project schedule, update goals for version 0.2
+* 2017-06-(22-26?) - Meeting
 ## Organization
-This project at the current time is worked on by the Project Owner and the Library Curator. 
+This project at the current time is worked on by the Project Owner and the Library Curator.
 ## Budget and resources
 ## Risk Assessment
 ## Stakeholders
 * Librarian
-* Teacher 
+* Teacher
 	Project Owner
 * EAL employees
 * EAL students
-* Small Inventory Owners 
+* Small Inventory Owners
 ## Perspective
 ## Evaluation and communication
 * Weekly Meetings
@@ -50,4 +50,4 @@ This project at the current time is worked on by the Project Owner and the Libra
 * Updating Meistertasks
 * Github Project
 ## References
-None at the current time. 
+None at the current time.

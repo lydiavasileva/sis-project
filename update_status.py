@@ -8,13 +8,24 @@ if __name__ == "__main__":
     db = TinyDB('//home/lidia/git/sis-project/db-library.json')
 
     def update_status():
+        Search = Query()
 
-        #nameItem = sys.argv[1]
-        #statusItem = sys.argv[2]
-        #nameUser = sys.argv[3]
+        #nameItem = input("Insert Name of the Item: ")
+        db.update({"nameItem": nameItem},Search.nameItem == "INHOUSE")
 
-        Status = Query()
+        #statusItem = input("Insert the Status of the Item: ")
+        db.update({"statusItem": statusItem},Search.statusItem == "INHOUSE")
 
-        db.update({"nameUser": "lidi0168"},Status.nameUser == "INHOUSE")
+        #nameUser = input("Insert the User name: ")
+        db.update({"nameUser": nameUser},Search.nameUser == "INHOUSE")
 
     update_status()
+
+
+#if user_input == "check-in item nameItem":
+#   db.update({statusItem: INSTOCK}, Search.nameItem)
+#   db.update({nameUser: INHOUSE}, Search.nameItem)
+
+#if user_input == "check-out item nameItem"
+#   db.update({statusItem: statusItem},Search.nameItem)
+#   db.update({nameUser: nameUser},Search.nameItem)
