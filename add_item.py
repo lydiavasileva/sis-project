@@ -3,7 +3,7 @@ from database import DataBase
 
 def get_cmd_args():
     parser = argparse.ArgumentParser(description = "Get 'itemname', 'status' and 'user' from user input.")
-    parser.add_argument('itemname', help='The name of the item to pro cess.')
+    parser.add_argument('itemname', help='The name of the item to process.')
     parser.add_argument('status', help='The status of named item.')
     parser.add_argument('user', help='The user that is responsible for the item.')
 
