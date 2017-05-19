@@ -15,6 +15,6 @@ if __name__ == "__main__":
 
     get_cmd_args()
     config = get_cmd_args()
-    db = DataBase('//home/lidia/git/sis-project/db-library.json')
+    db = DataBase('//home/lidia/git/sis-project/db/db-library.json')
     search = Query()
     print(search)

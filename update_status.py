@@ -14,7 +14,7 @@ def get_cmd_args():
 
 if __name__ == "__main__":
     config = get_cmd_args()
-    db = DataBase('//home/lidia/git/sis-project/db-library.json')
+    db = DataBase('//home/lidia/git/sis-project/db/db-library.json')
     db.update( fields, query)
 
         #nameItem = input("Insert Name of the Item: ")
