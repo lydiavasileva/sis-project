@@ -4,10 +4,10 @@ The SIS (Simple Inventory System) project is a small scale inventory system for 
 This project was created and is being worked on by [Lidia Vasileva](https://github.com/lydiavasileva).
 This project is being made as part of my job as a Student Helper at Lillebælt Academy, University of Applied Science and their IT Inventory, during my studies within the specialty of IT Technology with a focus on Networks.
 
-This system is being created for Lillebælt Academy, University of Applied Science and their IT Inventory. This inventory includes only hardware pieces - Raspberry Pies, Monitors, Cables, etc. 
+This system is being created for Lillebælt Academy, University of Applied Science and their IT Inventory. This inventory includes only hardware pieces - Raspberry Pies, Monitors, Cables, etc.
 
 This project was created due to a lack of known software solutions to be used in such a simple inventory.
-Important reason is also the experience which a project like this could provide an IT student, including working with Databases, Coding languages, Security of Data and more. 
+Important reason is also the experience which a project like this could provide an IT student, including working with Databases, Coding languages, Security of Data and more.
 
 ## Aditional Documentation
 
@@ -23,7 +23,17 @@ TBA.
 
 ### Prerequisites
 
-TBA.
+Required modules:
+
+* `tinidb`
+
+This is included in the `required.txt` which could be used to initialize the virtualenvironment
+
+1. `virtualenv venv`
+2. `source venv/bin/activate`
+3. `pip install -r required.txt`
+
+When done use `deactive` to leave the virtual environment.
 
 ### Installing
 
@@ -31,7 +41,14 @@ TBA.
 
 ## Running the tests
 
-TBA.
+To run tests we use *nosetests*
+
+Ensure that *nosetests* are installed, by either `apt-get install python-nosetests` or `pip install nosetests`
+
+Run `nosetests` to run tests.
+
+They are located in the subdirectory `tests`.
+
 
 ### Break down into end to end tests
 
