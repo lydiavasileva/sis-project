@@ -1,14 +1,21 @@
-from tinydb import TinyDB, Query
-from tinydb.operations import delete
-import sys
+import argparse
+from database import DataBase
 
 if __name__ == "__main__":
 
-    TinyDB.DEFAULT_TABLE = 'itemTable'
-    db = TinyDB('//home/lidia/git/sis-project/db-library.json')
+def get_cmd_args():
+    parser = argparse.ArgumentParser(description = "Get 'itemname', 'status' and 'user' from user input.")
+    parser.add_argument('itemname', help='The name of the item to process.')
+    parser.add_argument('status', help='The status of named item.')
+    parser.add_argument('user', help='The user that is responsible for the item.')
 
-    def update_status():
-        Search = Query()
+    args = parser.parse_args()
+    return args
+
+if __name__ == "__main__":
+    config = get_cmd_args()
+    db = DataBase('//home/lidia/git/sis-project/db/db-library.json')
+    db.update( fields, query)
 
         #nameItem = input("Insert Name of the Item: ")
         db.update({"nameItem": nameItem},Search.nameItem == "INHOUSE")
@@ -18,14 +25,3 @@ if __name__ == "__main__":
 
         #nameUser = input("Insert the User name: ")
         db.update({"nameUser": nameUser},Search.nameUser == "INHOUSE")
-
-    update_status()
-
-
-#if user_input == "check-in item nameItem":
-#   db.update({statusItem: INSTOCK}, Search.nameItem)
-#   db.update({nameUser: INHOUSE}, Search.nameItem)
-
-#if user_input == "check-out item nameItem"
-#   db.update({statusItem: statusItem},Search.nameItem)
-#   db.update({nameUser: nameUser},Search.nameItem)
