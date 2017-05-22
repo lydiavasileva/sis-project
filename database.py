@@ -8,10 +8,14 @@ class DataBase(object):
         self.db = TinyDB( db_filename )
 
     def add(self, name, status, user):
-        self.db.insert_multiple([{"nameItem": name ,"statusItem": status, "nameUser": user}])
+        id = self.db.insert({"nameItem": name ,"statusItem": status, "nameUser": user})
+        return id
 
     def search(self, name, status, user):
         self.db.search(search.config.itemname == itemname)
 
     def update(self, name, status, user):
         self.db.update()
+
+    def get( self, id ):
+        return self.db.get(eid=id)
