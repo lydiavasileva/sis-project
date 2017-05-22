@@ -11,7 +11,10 @@ non_exists_database = 'thisfilenamedoesnotexist'
 
 class test_database(unittest.TestCase):
     def test_create(self):
-        os.remove(non_exists_database) # ensure it is not there
+        try:
+            os.remove(non_exists_database) # ensure it is not there
+        except OSError:
+            pass
         my_db = DataBase( non_exists_database )
         os.remove(non_exists_database) # cleanup
 
