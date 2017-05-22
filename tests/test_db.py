@@ -27,7 +27,15 @@ class test_database_basic(unittest.TestCase):
 
 class test_database_methods(unittest.TestCase):
     def setUp( self ):
+        try:
+            os.remove(temp_database) # ensure it is not there
+        except OSError:
+            pass
         self.tmp_db = DataBase( temp_database )
+
+    def tearDown( self ):
+        os.remove(temp_database) # cleanup
+
 
     def test_add_item(self):
         id = self.tmp_db.add( user=test_user,
