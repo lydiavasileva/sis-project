@@ -27,10 +27,11 @@ Dates for project:
 * 2017-05-16, 10:00 AM – Present version 0.1
 * 2017-05-(17-19) – Finish up v0.1
 * 2017-05-20 - Update project schedule, update goals for version 0.2
-* 2017-06-(22-26?) - Meeting
-* 2017-06-01 – Update Project Plan 0.2
-* 2017-06-(02-05) – Meeting for Project Plan
-* 2017-06-(6-15) – Send out first list of Inventory to EAL employees and students
+Note: Schedule was pushed back due to unforseen events.
+* 2017- - Meeting
+* 2017- Update Project Plan 0.2
+* 2017- Meeting for Project Plan
+* 2017- Send out first list of Inventory to EAL employees and students
 ## Organization
 This project at the current time is worked on by the Project Owner and the Library Curator.
 ## Budget and resources
