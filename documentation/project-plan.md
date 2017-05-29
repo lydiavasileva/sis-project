@@ -1,5 +1,5 @@
 # Project Plan
-Date of update: 2017-05-10
+Date of update: 2017-05-29
 ## Background
 The Lillebælt Academy University of Applied Science has an IT Library/Inventory.
 ## Purpose
